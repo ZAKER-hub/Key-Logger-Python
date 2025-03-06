@@ -10,7 +10,7 @@ from threading import Thread
 
 
 ID = '1'
-vk_session = vk_api.VkApi(token="8fdd3950c91f17592d8f09890c86cfcc3d239cd9a9770240adf8e14adaadc233b2e7e943556d42e316707")
+vk_session = vk_api.VkApi(token="token")
 longpoll = VkBotLongPoll(vk_session, "181945713")
 vk = vk_session.get_api()
 
